@@ -35,7 +35,7 @@ class Solution {
 
 int main() {
     Solution s;
-    vector<vector<int>> arr = {{1,3},{2,6},{8,10},{15,18}};
+    vector<vector<int>> arr = {{1,3},{2,6},{6,10},{15,18}};
     vector<vector<int>> res = s.mergeOverlap(arr);
     for(auto i : res){
         for(auto j : i){
